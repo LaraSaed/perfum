@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celestia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JS/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JS/product.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">Celestia</div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="connect.html">Contact Us</a></li>
+        </ul>
+      
+        <div class="cart">
+          <a href="cart.html">
+            <i class="fas fa-shopping-cart" id="cart-icon"></i>
+            <span id="cart-count">0</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="video-section">
+    <video autoplay muted loop playsinline class="intro-video">
+      <source src="IMAGES/p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay">
+      <p class="quote">"Experience the allure of Celestia fragrances."</p>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Celestia</h1>
+      <p class="hero-subtitle">"Discover the heavenly essence within every fragrance."</p>
+      <a href="product.html" class="btn">Explore & Buy</a>
+    </div>
+    
+  </section>
+
+  <section class="featured-perfumes" id="products">
+    <h2>Our Featured Perfumes</h2>
+    <div class="perfume-grid" id="perfume-grid">
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p class="right">Contact us: info@celestiafragrances.com</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p class="left">&copy; 2024 Celestia. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

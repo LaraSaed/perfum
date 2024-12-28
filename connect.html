@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Celestia - Contact Us</title>
+
+  <link rel="stylesheet" href="CSS/productStyle.css">
+  <link rel="stylesheet" href="CSS/connectStyle.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JS/product.js" defer></script>
+  
+  <script src="JS/contact.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="logo">Celestia</div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="connect.html">Contact Us</a></li>
+        </ul>
+        <div class="cart">
+          <a href="cart.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<section class="hero">
+  <div class="hero-content container">
+    <div class="hero-inner">
+      <h1>Contact Us</h1>
+      <p>We're here to help! Whether you have questions about our products, need assistance, or just want to share your Celestia experience, feel free to reach out.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section class="contact-section container">
+    <h2>Get in Touch</h2>
+
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>info@celestiafragrances.com</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <p>+1 (800) 123-4567</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>123 Celestial Drive, Star City, Milky Way</p>
+      </div>
+    </div>
+
+    <form id="contactForm" class="contact-form" novalidate>
+      
+      <div class="form-group">
+        <label for="firstName">First Name <span>*</span></label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required />
+        <div class="error" id="firstNameError">Please enter a valid first name (min 2 characters).</div>
+      </div>
+      
+      <div class="form-group">
+        <label for="lastName">Last Name <span>*</span></label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required />
+        <div class="error" id="lastNameError">Please enter a valid last name (min 2 characters).</div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        <div class="error" id="emailError">Please enter a valid email address.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="mobile">Mobile Number <span>*</span></label>
+        <input type="text" id="mobile" name="mobile" placeholder="e.g. 5551234567" required />
+        <div class="error" id="mobileError">Please enter a valid 10-digit mobile number.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address <span>*</span></label>
+        <input type="text" id="address" name="address" placeholder="Enter your address" required />
+        <div class="error" id="addressError">Please enter an address (min 5 characters).</div>
+      </div>
+
+      <div class="form-group">
+        <label for="age">Age <span>*</span></label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" required />
+        <div class="error" id="ageError">Please enter a valid age (1-120).</div>
+      </div>
+
+      <div class="form-group">
+        <label for="hobbies">Hobbies <span>*</span></label>
+        <textarea id="hobbies" name="hobbies" placeholder="Enter your hobbies" required></textarea>
+        <div class="error" id="hobbiesError">Please enter at least one hobby (min 3 characters).</div>
+      </div>
+
+      <div class="form-group">
+        <label for="country">Country <span>*</span></label>
+        <select id="country" name="country" required>
+          <option value="">-- Select Your Country --</option>
+          <option value="US">United States</option>
+          <option value="UK">United Kingdom</option>
+          <option value="CA">Canada</option>
+          <option value="AU">Australia</option>
+        </select>
+        <div class="error" id="countryError">Please select your country.</div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message <span>*</span></label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+        <div class="error" id="messageError">Please enter your message (min 10 characters).</div>
+      </div>
+
+      <button type="submit" class="btn submit-btn">Send Message</button>
+    </form>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <p>Contact us: info@celestiafragrances.com</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2024 Celestia. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

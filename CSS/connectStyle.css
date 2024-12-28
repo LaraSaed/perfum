@@ -1,0 +1,244 @@
+
+.hero {
+  width: 100%;
+  height: 60vh; 
+  background-color: var(--background-color); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-inner {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 60px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeInUp 1s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-inner:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hero-inner h1 {
+  font-family: var(--font-family-logo);
+  font-size: 36px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.hero-inner h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-color);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.hero-inner p {
+  font-size: 18px;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-inner {
+    padding: 30px 40px;
+  }
+
+  .hero-inner h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .hero-inner p {
+    font-size: 16px;
+  }
+}
+
+.contact-section {
+  margin: 40px auto;
+  text-align: center;
+  
+}
+
+.contact-section h2 {
+  font-family: var(--font-family-logo);
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.info-item i {
+  font-size: 24px;
+  color: var(--accent-color);
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group span {
+  color: red;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--accent-color);
+}
+.btn.submit-btn {
+  display: inline-flex; 
+  align-items: center;  
+  justify-content: center; 
+  background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 
+    background 0.3s ease, 
+    transform 0.3s ease, 
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.btn.submit-btn i {
+  margin-right: 8px; 
+  transition: transform 0.3s ease;
+}
+
+.btn.submit-btn:hover {
+  background: linear-gradient(45deg, var(--accent-color), var(--primary-color));
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn.submit-btn:hover i {
+  transform: translateX(4px); 
+}
+
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  display: none; 
+}
+
+
+@media (max-width: 768px) {
+  .hero-overlay h1 {
+    font-size: 32px;
+  }
+  .hero-overlay p {
+    font-size: 16px;
+  }
+
+  .contact-info {
+    gap: 20px;
+  }
+
+  .info-item p {
+    font-size: 14px;
+  }
+
+  .btn.submit-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-overlay h1 {
+    font-size: 24px;
+  }
+
+  .hero-overlay p {
+    font-size: 14px;
+  }
+
+  .contact-section h2 {
+    font-size: 24px;
+  }
+
+  .info-item i {
+    font-size: 20px;
+  }
+
+  .contact-form {
+    padding: 0 10px;
+  }
+}

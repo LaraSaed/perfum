@@ -1,0 +1,129 @@
+
+
+    [
+        {
+          "name": "Giorgio Armani My Way",
+          "description": "Notes: Bergamot, orange blossom, tuberose, vanilla. Why it fits: Soft pink juice and delicate floral vibes.",
+          "price": "$80",
+          "image": "IMAGES/myWay.png"
+        },
+       
+            {
+              "name": "Versace Bright Crystal",
+              "description": "Pomegranate, peony, magnolia, musk. Iconic pink bottle, light and bright floral scent.",
+              "price": "$85",
+              "image": "IMAGES/2.png"
+            },
+            {
+              "name": "Hugo Boss The Scent for Her",
+              "description": "Peach, freesia, osmanthus, cacao. Sleek, feminine pink-hued bottle.",
+              "price": "$78",
+              "image": "IMAGES/3.png"
+            },
+            {
+              "name": "Miss Dior Blooming Bouquet",
+              "description": "Peony, rose, white musk. Soft pink fragrance liquid, delicate floral fragrance.",
+              "price": "$95",
+              "image": "IMAGES/4.png"
+            },
+            {
+              "name": "Chanel Chance Eau Tendre",
+              "description": "Grapefruit, quince, jasmine, white musk. Pastel-pink juice; fresh and airy composition.",
+              "price": "$105",
+              "image": "IMAGES/5.png"
+            },
+            {
+              "name": "Gucci Bloom",
+              "description": "Jasmine, tuberose, Rangoon creeper. Elegant white-pink minimalist bottle with a very floral heart.",
+              "price": "$90",
+              "image": "IMAGES/6.png"
+            },
+            {
+              "name": "Chloé Eau de Parfum (Signature)",
+              "description": "Peony, rose, lychee, cedar. Soft pink ribbon, romantic aesthetic.",
+              "price": "$92",
+              "image": "IMAGES/7.png"
+            },
+            {
+              "name": "Marc Jacobs Daisy Eau So Fresh",
+              "description": "Raspberry, grapefruit, wild rose, musk. Fun, floral fragrance with a pastel/pinkish hue and white daisy cap.",
+              "price": "$88",
+              "image": "IMAGES/8.png"
+            },
+            {
+              "name": "Marc Jacobs Daisy Love",
+              "description": "Cloudberry, daisy, driftwood, cashmere musk. Adorable pink tint in the bottle with the signature daisy topper.",
+              "price": "$90",
+              "image": "IMAGES/9.png"
+            },
+            {
+              "name": "Coach Floral Eau de Parfum",
+              "description": "Pineapple sorbet, rose tea, gardenia, patchouli. Soft pink bottle, fresh floral scent.",
+              "price": "$75",
+              "image": "IMAGES/10.png"
+            },
+            {
+              "name": "DKNY Be Delicious Fresh Blossom",
+              "description": "Grapefruit, rose, jasmine, apple. Pale pink apple-shaped bottle; crisp, fruity-floral aroma.",
+              "price": "$70",
+              "image": "IMAGES/11.png"
+            },
+            {
+              "name": "Yves Saint Laurent Mon Paris",
+              "description": "Strawberry, raspberry, pear, peony, patchouli. Elegant bow and pink juice, romantic vibe.",
+              "price": "$110",
+              "image": "IMAGES/12.png"
+            },
+            {
+              "name": "Lancôme La Vie Est Belle",
+              "description": "Iris, praline, pear, vanilla. Rose-hued fragrance liquid and a clean, luminous design.",
+              "price": "$95",
+              "image": "IMAGES/13.png"
+            },
+            {
+              "name": "Miu Miu L’Eau Rosée",
+              "description": "Blackcurrant, lily of the valley, musk. Soft pink matte glass, delicate floral musk.",
+              "price": "$100",
+              "image": "IMAGES/14.png"
+            },
+            {
+              "name": "Prada Candy",
+              "description": "Caramel, musk, vanilla, benzoin. Chic pink-and-gold packaging with a sweet, feminine vibe.",
+              "price": "$88",
+              "image": "IMAGES/15.png"
+            },
+            {
+              "name": "Victoria’s Secret Bombshell",
+              "description": "Passion fruit, peony, vanilla orchid. Signature pink-striped bottle with a fresh, fruity-floral scent.",
+              "price": "$65",
+              "image": "IMAGES/16.png"
+            },
+            {
+              "name": "Ariana Grande Sweet Like Candy",
+              "description": "Berries, whipped cream, marshmallow, vanilla. Pastel-pink round bottle with a playful pom-pom.",
+              "price": "$60",
+              "image": "IMAGES/17.png"
+            },
+            {
+              "name": "Tiffany & Co. Rose Gold",
+              "description": "Blackcurrant, blue rose accord, ambrette seed. Subtle blush-hued bottle, luxe yet fresh floral.",
+              "price": "$115",
+              "image": "IMAGES/18.png"
+            },
+            {
+              "name": "Guerlain Mon Guerlain Bloom of Rose",
+              "description": "Bulgarian rose, lavender, neroli, vanilla. Romantic pink liquid; airy and floral interpretation of the original.",
+              "price": "$98",
+              "image": "IMAGES/19.png"
+            },
+            {
+              "name": "Chloé Nomade",
+              "description": "Oak moss, cherry plum, freesia, mirabelle. Soft nude/pink bottle with a clean white cap (often perceived as pinkish hue).",
+              "price": "$105",
+              "image": "IMAGES/20.png"
+            }
+        
+          
+     
+  ]
+  

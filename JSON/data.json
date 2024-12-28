@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Miss Dior",
+      "description": "An elegant blend of floral and citrus notes with a touch of musk.",
+      "price": "$75",
+      "image": "IMAGES/MD.jpg"
+    },
+    {
+      "name": "Gucci Bloom",
+      "description": "A luxurious fragrance featuring tuberose, jasmine, and Rangoon creeper.",
+      "price": "$85",
+      "image": "IMAGES/gucci.jpg"
+    },
+    {
+      "name": "Lancôme La Vie Est Belle",
+      "description": "A delightful mix of iris, praline, and vanilla for a sweet and floral aroma.",
+      "price": "$95",
+      "image": "IMAGES/la-vie-est-belle.jpg"
+    }
+  ]
+  

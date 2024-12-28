@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Store - Products</title>
+    <link rel="stylesheet" href="CSS/productStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS/product.js" defer></script>
+</head>
+<body>
+   
+  <header class="header">
+    <div class="container">
+      <div class="logo">Celestia</div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="connect.html">Contact Us</a></li>
+        </ul>
+        <div class="cart">
+          <a href="cart.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <main>
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="search-bar">
+                <input type="text" id="search-bar" placeholder="Search for perfumes...">
+            </div>
+
+            <div id="products-container" class="products-grid">
+            </div>
+        </div>
+    </main>
+
+  <footer id="contact">
+    <div class="container">
+      <p>Contact us: info@celestiafragrances.com</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>&copy; 2024 Celestia. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
